@@ -14,7 +14,7 @@ You're going to get a copy of this Github repository downloaded - a.k.a. cloned 
 2. If you are not already there, go to the `/vagrant` directory.
 3. Look all the way up and to the right of this screen and you'll see a button with the word **Fork** on it. Click that button.
 4. What you've just done is taken a copy of *my* repository and all the code inside it, and copied into your Github account. You can now do whatever you like to your fork of my repository and it won't affect mine at all.
-5. Now on the right side of the screen, just about half-way down, you will see the text **_SSH clone URL_** with a text box beneath it. Under those, click the link labeled HTTPS.  That will change the text above to **_HTTPS clone URL_**.
+5. Now on the top of the page, you will see the text **HTTPS** with a text box next to it. Make sure that HTTPS is selected.  
 6. Click the little clipboard icon to the right and it copies that URL to your computer's clipboard.
 7. Go back to your terminal window (remember to use _Cmd+Tab_ keyboard shortcut on a Mac, or _Alt+Tab_ on Windows).
 8. Type in `git clone ` and then paste the URL after that text. You should see
