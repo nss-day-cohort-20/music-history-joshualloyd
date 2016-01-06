@@ -18,7 +18,7 @@ You're going to get a copy of this Github repository downloaded - a.k.a. cloned 
 6. Click the little clipboard icon to the right and it copies that URL to your computer's clipboard.
 7. Go back to your terminal window (remember to use _Cmd+Tab_ keyboard shortcut on a Mac, or _Alt+Tab_ on Windows).
 8. Type in `git clone ` and then paste the URL after that text. You should see
-   `git clone https://github.com/{your account name here}/musichistory.git`
+   `git clone https://github.com/{your account name here}/musichistory-boilerplate.git musichistory`
 1. Hit your enter key and git will do two things. First, it creates a `musichistory` sub-directory under `/vagrant` and then downloads all the code into that directory.
 1. Now `ls musichistory`.
 1. You will see the lonely `index.html` file sitting in there.
