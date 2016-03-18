@@ -10,16 +10,14 @@ I've started you off with a very basic HTML document, the `index.html` file. Thi
 
 You're going to get a copy of this Github repository downloaded - a.k.a. cloned - to your machine using the `git` command. Here's how to do it.
 
-1. Open your terminal window and make sure you are in your Vagrant machine.
-2. If you are not already there, go to the `/vagrant` directory.
-3. Look all the way up and to the right of this screen and you'll see a button with the word **Fork** on it. Click that button.
-4. What you've just done is taken a copy of *my* repository and all the code inside it, and copied into your Github account. You can now do whatever you like to your fork of my repository and it won't affect mine at all.
-5. Now on the top of the page, you will see the text **HTTPS** with a text box next to it. Make sure that HTTPS is selected.  
-6. Click the little clipboard icon to the right and it copies that URL to your computer's clipboard.
-7. Go back to your terminal window (remember to use _Cmd+Tab_ keyboard shortcut on a Mac, or _Alt+Tab_ on Windows).
-8. Type in `git clone ` and then paste the URL after that text. You should see
+1. Look all the way up and to the right of this screen and you'll see a button with the word **Fork** on it. Click that button,
+2. What you've just done is taken a copy of *my* repository and all the code inside it, and copied into your Github account. You can now do whatever you like to your fork of my repository and it won't affect mine at all.
+3. Now on the top of the page, you will see the text **HTTPS** with a text box next to it. Make sure that HTTPS is selected.
+4. Click the little clipboard icon to the right and it copies that URL to your computer's clipboard.
+5. Open your terminal window and navigate to your workspace folder.
+6. Type in `git clone ` and then paste the URL after that text. You should see
    `git clone https://github.com/{your account name here}/musichistory-boilerplate.git musichistory`
-1. Hit your enter key and git will do two things. First, it creates a `musichistory` sub-directory under `/vagrant` and then downloads all the code into that directory.
+1. Hit your enter key and git will do two things. First, it creates a `musichistory` sub-directory under `/workspace` and then downloads all the code into that directory.
 1. Now `ls musichistory`.
 1. You will see the lonely `index.html` file sitting in there.
 
