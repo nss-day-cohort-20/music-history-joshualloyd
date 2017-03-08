@@ -6,25 +6,6 @@ I've started you off with a very basic HTML document, the `index.html` file. Thi
 
 > **Terminology:** Root URL simply means your domain name (or IP address) with no other documents, or folders specified. `www.google.com` is the root URL of Google's web site, but `www.google.com/finance` is not.
 
-## Your first Fork & Clone
-
-You're going to get a copy of this Github repository downloaded - a.k.a. cloned - to your machine using the `git` command. Here's how to do it.
-
-1. Look all the way up and to the right of this screen and you'll see a button with the word **Fork** on it. Click that button,
-2. What you've just done is taken a copy of *my* repository and all the code inside it, and copied into your Github account. You can now do whatever you like to your fork of my repository and it won't affect mine at all.
-3. Now on the top of the page, you will see the text **HTTPS** with a text box next to it. Make sure that HTTPS is selected.
-4. Click the little clipboard icon to the right and it copies that URL to your computer's clipboard.
-5. Open your terminal window and navigate to your workspace folder.
-6. Type in `git clone ` and then paste the URL after that text. You should see
-   `git clone https://github.com/{your account name here}/musichistory-boilerplate.git musichistory`
-1. Hit your enter key and git will do two things. First, it creates a `musichistory` sub-directory under `/workspace` and then downloads all the code into that directory.
-1. Now `ls musichistory`.
-1. You will see the lonely `index.html` file sitting in there.
-
-Congratulations, you've just cloned your first Github repository!
-
-Now here's your assignment.
-
 ## Individual Assignment
 
 You will be building the basic structure of your Music History application in HTML and making it look good with the skills you learned in CSS.
