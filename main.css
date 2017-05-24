@@ -7,10 +7,15 @@ body {
 	margin: 1rem auto;
 }
 
+body > div {
+	border: 2px solid black;
+	padding: 2%;
+	margin-bottom: .5rem;
+}
+
 #view-music {
 	background-color: #ffb4b0;
 	padding: 1rem;
-	margin-bottom: 2%;
 }
 
 #view-music li {
@@ -22,7 +27,6 @@ body {
 	width: 25%;
 	background-color: #4DD7FA;
 	float: left;
-	padding: 2%;
 	min-height: 20rem;
 }
 
@@ -30,16 +34,23 @@ body {
 	display: block;
 }
 
+#song-options fieldset {
+	border-style: none;
+}
+
 #song-list {
 	width: 65%;
 	background-color: #FEFAC0;
 	float: right;
-	padding: 2%;
 	min-height: 20rem;
 }
 
 #song-list li {
 	list-style: none;
+}
+
+#song-list h3 {
+	color: #785616;
 }
 
 #song-list p {
