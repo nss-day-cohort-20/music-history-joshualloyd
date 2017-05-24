@@ -1,0 +1,60 @@
+* {
+	font-family: sans-serif;
+}
+
+body {
+	max-width: 50rem;
+	margin: 1rem auto;
+}
+
+#view-music {
+	background-color: #ffb4b0;
+	padding: 1rem;
+	margin-bottom: 2%;
+}
+
+#view-music li {
+	list-style: none;
+	display: inline; 
+}
+
+#song-options {
+	width: 25%;
+	background-color: #4DD7FA;
+	float: left;
+	padding: 2%;
+	min-height: 20rem;
+}
+
+#song-options form > input, #song-options form > label {
+	display: block;
+}
+
+#song-list {
+	width: 65%;
+	background-color: #FEFAC0;
+	float: right;
+	padding: 2%;
+	min-height: 20rem;
+}
+
+#song-list li {
+	list-style: none;
+}
+
+#song-list p {
+	display: inline;
+}
+
+@media (max-width: 40rem) {
+
+	#song-options {
+		width: 100%;
+		float: none;
+	}
+
+	#song-list {
+		width: 100%;
+		float: none;
+	}
+}
