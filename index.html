@@ -4,10 +4,94 @@
 <head>
   <meta charset="utf-8">
   <title>Music History</title>
+  <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 
 <body>
-
-
+	<div id="view-music">
+		<ul>
+			<li><a href="#">View Music</a></li>
+			<li>|</li>
+			<li><a href="#">Add Music</a></li>
+			<li>|</li>
+			<li><a href="#">Profile</a></li>
+		</ul>
+	</div>
+	<div id="song-options">
+		<form>
+			<div class="options-control">
+				<label>Song length:</label>
+				<input type="range" name="">
+			</div>
+			<div class="options-control">
+				<label>Artist:</label>
+				<select>
+					<option value="Artist1">Artist1</option>
+					<option value="Artist2">Artist2</option>
+					<option value="Artist3">Artist3</option>
+					<option value="Artist4">Artist4</option>
+					<option value="Artist5">Artist5</option>
+				</select>
+			</div>
+			<div class="options-control">
+				<label>Album:</label>
+				<select>
+					<option value="Album1">Album1</option>
+					<option value="Album2">Album2</option>
+					<option value="Album3">Album3</option>
+					<option value="Album4">Album4</option>
+					<option value="Album5">Album5</option>
+				</select>
+			</div>
+			<fieldset class="options-control">
+				<legend>Genre:</legend>
+				<div class="genre-column">
+					<input type="checkbox" id="rock" name="genre" value="rock">
+					<label for="rock">Rock</label><br>
+					<input type="checkbox" id="pop" name="genre" value="pop">
+					<label for="pop">Pop</label><br>
+					<input type="checkbox" id="blues" name="genre" value="blues">
+					<label for="blues">Blues</label><br>
+				</div>
+				<div class="genre-column">
+					<input type="checkbox" id="classical" name="genre" value="classical">
+					<label for="classical">Classical</label><br>
+					<input type="checkbox" id="jazz" name="genre" value="jazz">
+					<label for="jazz">Jazz</label><br>
+					<input type="checkbox" id="hipHop" name="genre" value="hipHop">
+					<label for="hipHop">Hip hop</label><br>
+				</div>
+			</fieldset>
+			<button>Filter</button>
+		</form>
+	</div>
+	<div id="song-list">
+		<ul>
+			<li>
+				<h3>Song Name</h3>
+				<p>Artist Name</p>
+				<p>Album Name</p>
+				<p>Genre</p>
+			</li>
+			<li>
+				<h3>Song Name</h3>
+				<p>Artist Name</p>
+				<p>Album Name</p>
+				<p>Genre</p>
+			</li>
+			<li>
+				<h3>Song Name</h3>
+				<p>Artist Name</p>
+				<p>Album Name</p>
+				<p>Genre</p>
+			</li>
+			<li>
+				<h3>Song Name</h3>
+				<p>Artist Name</p>
+				<p>Album Name</p>
+				<p>Genre</p>
+			</li>
+		</ul>
+	</div>
 </body>
 </html>

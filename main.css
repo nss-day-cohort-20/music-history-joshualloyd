@@ -1,0 +1,88 @@
+* {
+	font-family: sans-serif;
+}
+
+body {
+	max-width: 50rem;
+	margin: 1rem auto;
+}
+
+body > div {
+	border: 2px solid black;
+	padding: 2%;
+	margin-bottom: .5rem;
+}
+
+#view-music {
+	background-color: #ffb4b0;
+	padding: 1rem;
+}
+
+#view-music li {
+	list-style: none;
+	display: inline;
+}
+
+#song-options {
+	width: 25%;
+	background-color: #4DD7FA;
+	float: left;
+	min-height: 20rem;
+}
+
+#song-options form > input,
+#song-options form > label
+{
+	display: block;
+}
+
+.options-control {
+	margin-bottom: .8em;
+}
+
+#song-options fieldset {
+	border-style: none;
+	padding: 0;
+}
+
+#song-options input[type="range"],
+#song-options select
+{
+	width: 100%;
+}
+
+.genre-column {
+	display: inline-block;
+}
+
+#song-list {
+	width: 65%;
+	background-color: #FEFAC0;
+	float: right;
+	min-height: 20rem;
+}
+
+#song-list li {
+	list-style: none;
+}
+
+#song-list h3 {
+	color: #785616;
+}
+
+#song-list p {
+	display: inline;
+}
+
+@media (max-width: 40rem) {
+
+	#song-options {
+		width: 100%;
+		float: none;
+	}
+
+	#song-list {
+		width: 100%;
+		float: none;
+	}
+}
