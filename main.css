@@ -20,7 +20,7 @@ body > div {
 
 #view-music li {
 	list-style: none;
-	display: inline; 
+	display: inline;
 }
 
 #song-options {
@@ -30,12 +30,29 @@ body > div {
 	min-height: 20rem;
 }
 
-#song-options form > input, #song-options form > label {
+#song-options form > input,
+#song-options form > label
+{
 	display: block;
+}
+
+.options-control {
+	margin-bottom: .8em;
 }
 
 #song-options fieldset {
 	border-style: none;
+	padding: 0;
+}
+
+#song-options input[type="range"],
+#song-options select
+{
+	width: 100%;
+}
+
+.genre-column {
+	display: inline-block;
 }
 
 #song-list {
