@@ -70,10 +70,6 @@ body > div {
 	color: #785616;
 }
 
-#song-list p {
-	display: inline;
-}
-
 @media (max-width: 40rem) {
 
 	#song-options {
