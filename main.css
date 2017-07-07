@@ -1,3 +1,7 @@
+.hidden {
+	display: none;
+}
+
 * {
 	font-family: sans-serif;
 }
@@ -7,7 +11,7 @@ body {
 	margin: 1rem auto;
 }
 
-body > div {
+.header-panel, .list-panel {
 	border: 2px solid black;
 	padding: 2%;
 	margin-bottom: .5rem;
@@ -21,6 +25,10 @@ body > div {
 #view-music li {
 	list-style: none;
 	display: inline;
+}
+
+#list-view {
+
 }
 
 #song-options {
@@ -68,6 +76,11 @@ body > div {
 
 #song-list h3 {
 	color: #785616;
+}
+
+#add-view {
+ clear: both;
+ padding: 2rem 15rem;
 }
 
 @media (max-width: 40rem) {
