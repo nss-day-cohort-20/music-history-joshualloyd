@@ -1,14 +1,14 @@
-var listLink = document.getElementById('list-link');
-var addLink = document.getElementById('add-link');
-var listView = document.getElementById('list-view');
-var addView = document.getElementById('add-view');
-var songNameInput = document.getElementById('song-name-input');
-var songArtistInput = document.getElementById('artist-input');
-var songAlbumInput = document.getElementById('album-input');
-var addBtn = document.getElementById('add-btn');
+let listLink = document.getElementById('list-link');
+let addLink = document.getElementById('add-link');
+let listView = document.getElementById('list-view');
+let addView = document.getElementById('add-view');
+let songNameInput = document.getElementById('song-name-input');
+let songArtistInput = document.getElementById('artist-input');
+let songAlbumInput = document.getElementById('album-input');
+let addBtn = document.getElementById('add-btn');
 
 window.addEventListener('load', function(){
-	printSongList(buildSongListString());
+	loadSongs(buildSongListString, printSongList);
 });
 
 listLink.addEventListener('click', function(){
@@ -22,10 +22,20 @@ addLink.addEventListener('click', function(){
 });
 
 addBtn.addEventListener('click', function(){
-	var songString =`${songNameInput.value} > by ${songArtistInput.value} on the album ${songAlbumInput.value}`;//get form values
-	songs.push(songString);
+	let songObj = {
+		songName: songNameInput.value,
+		artistName: songArtistInput.value,
+		albumName: songAlbumInput.value
+	};//get form values
+	console.log("songObj", songObj);
+	songs.push(songObj);
 	songNameInput.value = '';
 	songArtistInput.value = '';
 	songAlbumInput.value = '';
-	printSongList(buildSongListString());
+	printSongList(buildSongListString(songs));
+	let deleteButtons = document.querySelectorAll('.delete-btn');
+	console.log('deleteButtons', deleteButtons);
 });
+
+// let deleteButtons = document.querySelectorAll('.delete-btn');
+// console.log('deleteButtons', deleteButtons);

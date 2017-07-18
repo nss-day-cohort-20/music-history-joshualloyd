@@ -1,0 +1,39 @@
+{
+	"songs": [
+		{
+			"songName" : "Bohemian Rhapsody",
+			"artistName" : "Queen",
+			"albumName" : "A Night at the Opera"
+		},
+		{
+			"songName" : "Legs",
+			"artistName" : "ZZ Top",
+			"albumName" : "Eliminator"
+		},
+		{
+			"songName" : "The Logical Song",
+			"artistName" : "Supertramp",
+			"albumName" : "Breakfast in America"
+		},
+		{
+			"songName" : "Another Brick in the Wall",
+			"artistName" : "Pink Floyd",
+			"albumName" : "The Wall"
+		},
+		{
+			"songName" : "Welcome to the Jungle",
+			"artistName" : "Guns & Roses",
+			"albumName" : "Appetite for Destruction"
+		},
+		{
+			"songName" : "Ironic",
+			"artistName" : "Alanis Morisette",
+			"albumName" : "Jagged Little Pill"
+		},
+		{
+			"songName" : "I Would Do Anything For Love",
+			"artistName" : "Meatloaf",
+			"albumName" : "Bat Out of Hell II: Back into Hell"
+		}
+	]
+}
