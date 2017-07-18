@@ -6,9 +6,10 @@ let songNameInput = document.getElementById('song-name-input');
 let songArtistInput = document.getElementById('artist-input');
 let songAlbumInput = document.getElementById('album-input');
 let addBtn = document.getElementById('add-btn');
+let moreBtn = document.getElementById('more-btn');
 
 window.addEventListener('load', function(){
-	loadSongs(buildSongListString, printSongList);
+	loadSongs('songs1.json', buildSongListString, printSongList);
 });
 
 listLink.addEventListener('click', function(){
@@ -37,5 +38,7 @@ addBtn.addEventListener('click', function(){
 	console.log('deleteButtons', deleteButtons);
 });
 
-// let deleteButtons = document.querySelectorAll('.delete-btn');
-// console.log('deleteButtons', deleteButtons);
+moreBtn.addEventListener('click', function() {
+	loadSongs('songs2.json', buildSongListString, printSongList);
+	moreBtn.disabled = true;
+});

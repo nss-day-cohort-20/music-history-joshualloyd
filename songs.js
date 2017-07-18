@@ -1,18 +1,21 @@
 let songs = [];
 
-function loadSongs(buildString, renderList) {
+function loadSongs(jsonFile, buildString, renderList) {
 	let songRequest = new XMLHttpRequest();
 
 	songRequest.addEventListener('load', function() {
 		console.log('event.target', event.target);
 		let songsData = JSON.parse(event.target.responseText).songs;
 		console.log('parsed data', songsData);
-		let builtString = buildString(songsData);
+		songsData.forEach(function(songObj) {
+			songs.push(songObj);
+		});
+		// songs = songsData;
+		let builtString = buildString(songs);
 		renderList(builtString);
-		songs = songsData;
 	});
 
-	songRequest.open('GET', 'songs.json');
+	songRequest.open('GET', jsonFile);
 
 	songRequest.send();
 }
